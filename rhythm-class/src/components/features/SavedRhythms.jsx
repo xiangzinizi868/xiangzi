@@ -61,13 +61,13 @@ const SavedRhythms = () => {
               <div className="saved-item-actions">
                 <button 
                   className="load-btn"
-                  onClick={() => handleLoadSavedRhythm(rhythm.id)}
+                  onClick={() => handleLoadRhythm(rhythm.id)}
                 >
                   加载
                 </button>
                 <button 
                   className="delete-btn"
-                  onClick={() => handleDeleteSavedRhythm(rhythm.id)}
+                  onClick={() => handleDeleteRhythm(rhythm.id)}
                 >
                   删除
                 </button>
